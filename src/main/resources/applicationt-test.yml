@@ -1,0 +1,41 @@
+mail:
+    host: smtp.qq.com
+    port: 587
+    username: 你的QQ邮箱地址
+    password: 你的QQ邮箱密码（授权码）
+    protocol: smtp
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+      mail.smtp.starttls.required: true
+      mail.smtp.ssl.trust: smtp.qq.com
+      mail.smtp.timeout: 5000
+    from: 你的QQ邮箱地址
+    to: 接收邮件的地址
+
+
+#  在第三方客户端/服务怎么设置
+#  登录时，请在第三方客户端的密码输入框里面填入授权码进行验证。（不是填入QQ的密码）
+#
+#  IMAP/SMTP 设置方法
+#  用户名/帐户： 你的QQ邮箱完整的地址
+#
+#  密码： 生成的授权码
+#
+#  电子邮件地址： 你的QQ邮箱的完整邮件地址
+#
+#  接收邮件服务器： imap.qq.com，使用SSL，端口号993
+#
+#  发送邮件服务器： smtp.qq.com，使用SSL，端口号465或587
+#
+#
+#  POP3/SMTP 设置方法
+#  用户名/帐户： 你的QQ邮箱完整的地址
+#
+#  密码： 生成的授权码
+#
+#  电子邮件地址： 你的QQ邮箱的完整邮件地址
+#
+#  接收邮件服务器： pop.qq.com，使用SSL，端口号995
+#
+#  发送邮件服务器： smtp.qq.com，使用SSL，端口号465或587
